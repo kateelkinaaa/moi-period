@@ -1,0 +1,519 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Мой период: почему сейчас так · мини-курс Екатерины Холкиной</title>
+<meta name="description" content="Семь коротких уроков: какой у вас сейчас период, почему он пришел, сколько продлится и что в нем решать, а что отложить. Нужны только дата и место рождения.">
+<meta property="og:title" content="Мой период: почему сейчас так">
+<meta property="og:description" content="Семь коротких уроков про ваш период: откуда он, сколько продлится и что в нем делать. Нужны только дата и место рождения.">
+<meta property="og:type" content="website">
+<meta property="og:image" content="https://kateelkinaaa.github.io/moi-period/img/katya/image.jpg">
+<meta name="theme-color" content="#F4F9FD">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='30' fill='%232C5680'/%3E%3Cpath d='M40 14a18 18 0 1 0 0 36a14 14 0 1 1 0-36z' fill='%23C9A961'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant:ital,wght@0,500;0,600;1,500;1,600&family=PT+Serif:ital,wght@0,400;0,700;1,400&display=swap">
+<style>
+:root{
+  --ink:#14202B; --body:#3A4550; --dim:#5D6B78;
+  --blue:#3E74A8; --blue-dark:#2C5680; --sky:#88B9E7;
+  --line:#DCE8F3; --soft:#F4F9FD; --soft2:#EAF1F8; --white:#FFFFFF;
+  --gold:#C9A961; --gold-text:#8A6A24;
+  --display:'Cormorant',Georgia,'Times New Roman',serif;
+  --text:'PT Serif',Georgia,'Times New Roman',serif;
+  --wrap:1080px;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--white);color:var(--body);font-family:var(--text);font-size:17.5px;line-height:1.6}
+img{max-width:100%;display:block}
+a{color:var(--blue-dark)}
+h1,h2,h3{font-family:var(--display);color:var(--ink);font-weight:600;margin:0;text-wrap:balance;letter-spacing:-.2px}
+h1{font-size:clamp(40px,7.2vw,68px);line-height:1.02}
+h2{font-size:clamp(32px,5vw,48px);line-height:1.06;margin-bottom:18px}
+h3{font-size:clamp(24px,3vw,28px);line-height:1.15}
+h1 i,h2 i{color:var(--blue);font-weight:500}
+p{margin:0 0 14px}
+.wrap{max-width:var(--wrap);margin:0 auto;padding:0 20px}
+.narrow{max-width:720px}
+section{padding:clamp(56px,9vw,104px) 0}
+section.soft{background:var(--soft)}
+.eyebrow{font-family:var(--text);font-size:13px;letter-spacing:2.4px;text-transform:uppercase;color:var(--gold-text);font-weight:700;margin-bottom:14px}
+.lead{font-size:clamp(18px,2.1vw,20.5px);line-height:1.55}
+.btn{display:inline-block;text-align:center;background:var(--blue);color:var(--white);text-decoration:none;font-weight:700;padding:17px 34px;border-radius:999px;font-size:17px;letter-spacing:.2px;transition:background .2s,transform .2s;border:0;cursor:pointer;font-family:var(--text)}
+.btn:hover{background:var(--blue-dark)}
+.btn:active{transform:translateY(1px)}
+.btn:focus-visible,summary:focus-visible,a:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.under{font-size:14.5px;color:var(--dim);margin-top:12px}
+
+/* шапка */
+.top{position:absolute;left:0;right:0;top:0;z-index:5}
+.top .wrap{display:flex;justify-content:space-between;align-items:center;height:68px;font-size:13px;letter-spacing:2.2px;text-transform:uppercase;font-weight:700;color:var(--blue-dark)}
+.top a{text-decoration:none;color:inherit}
+
+/* первый экран */
+.hero{background:linear-gradient(180deg,var(--soft) 0%,var(--white) 100%);padding-top:100px;overflow:hidden}
+.hero .grid{display:grid;gap:36px;align-items:center}
+.hero .text{display:flex;flex-direction:column;gap:20px}
+.hero .facts{display:flex;flex-wrap:wrap;gap:8px 10px;margin-top:2px}
+.chip{border:1px solid var(--line);background:var(--white);border-radius:999px;padding:7px 14px;font-size:14.5px;color:var(--ink)}
+.portrait{position:relative;border-radius:28px;overflow:hidden;aspect-ratio:4/5;background:radial-gradient(circle at 70% 25%,#DCEAF7 0%,#C7DCF0 40%,#9EC2E6 100%)}
+.portrait img{position:absolute;inset:0;z-index:1;width:100%;height:100%;object-fit:cover;object-position:50% 30%}
+.portrait .ph{position:absolute;inset:0;display:flex;align-items:center;justify-content:center}
+.portrait .ph svg{width:46%;opacity:.9}
+.portrait figcaption{z-index:2;position:absolute;left:14px;bottom:14px;right:14px;background:rgba(255,255,255,.9);backdrop-filter:blur(6px);border-radius:16px;padding:12px 16px;font-size:14.5px;line-height:1.35;color:var(--ink)}
+.portrait figcaption b{font-family:var(--display);font-size:21px;display:block;font-weight:600}
+
+/* карточки */
+.cards{display:grid;gap:14px}
+.card{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:24px 24px}
+.card p:last-child{margin-bottom:0}
+.card .n{font-family:var(--display);font-size:40px;line-height:1;color:var(--sky);font-weight:600;margin-bottom:10px}
+.pain{font-family:var(--display);font-style:italic;font-size:clamp(24px,2.6vw,27px);line-height:1.15;color:var(--ink);font-weight:600;margin-bottom:10px}
+.gains{list-style:none;padding:0;margin:26px 0 22px;display:grid;gap:12px;max-width:760px}
+.gains li{position:relative;padding-left:34px;font-size:18px;color:var(--ink)}
+.gains li:before{content:"";position:absolute;left:4px;top:.45em;width:14px;height:8px;border-left:2px solid var(--gold);border-bottom:2px solid var(--gold);transform:rotate(-45deg)}
+.quote{font-family:var(--display);font-style:italic;font-size:clamp(26px,3.6vw,34px);line-height:1.2;color:var(--ink);margin-top:28px;font-weight:500}
+
+/* две колонки */
+.two{display:grid;gap:28px;align-items:start}
+.result{border-radius:22px;padding:26px;background:var(--white);border:1px solid var(--line)}
+.result .when{font-size:13px;letter-spacing:2px;text-transform:uppercase;color:var(--gold-text);font-weight:700;margin-bottom:8px}
+.result h3{margin-bottom:10px}
+
+/* мини-таблица-иллюстрация */
+.mock{background:var(--white);border:1px solid var(--line);border-radius:22px;padding:20px;box-shadow:0 18px 40px -24px rgba(44,86,128,.35)}
+.mock .head{display:flex;justify-content:space-between;font-size:13px;color:var(--dim);margin-bottom:12px}
+.mock .row{display:grid;grid-template-columns:96px 1fr;gap:12px;align-items:center;padding:9px 0;border-top:1px solid var(--line);font-size:15px}
+.mock .row b{color:var(--ink);font-weight:700}
+.bar-line{position:relative;height:10px;border-radius:999px;background:var(--soft2)}
+.bar-line span{position:absolute;top:0;bottom:0;border-radius:999px;background:var(--sky)}
+.bar-line span.now{background:var(--gold)}
+.mock .foot{font-size:13px;color:var(--dim);margin-top:10px;display:flex;gap:16px;flex-wrap:wrap}
+.dot{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:6px;vertical-align:middle}
+
+/* программа */
+details{border:1px solid var(--line);border-radius:18px;background:var(--white);padding:0 22px;transition:border-color .2s}
+details+details{margin-top:10px}
+details[open]{border-color:var(--sky)}
+summary{cursor:pointer;list-style:none;padding:18px 0;display:flex;gap:14px;align-items:baseline;justify-content:space-between;color:var(--ink);font-weight:700;font-size:17.5px}
+summary::-webkit-details-marker{display:none}
+summary .t{display:flex;gap:14px;align-items:baseline}
+summary .num{font-family:var(--display);font-size:26px;color:var(--blue);font-weight:600;min-width:20px}
+summary .min{font-weight:400;color:var(--dim);font-size:14.5px;white-space:nowrap}
+details .in{padding:0 0 18px 34px;font-size:16.5px}
+details.bonus{background:var(--soft);border-style:dashed}
+
+/* правило */
+.dark{background:var(--blue-dark);color:#E3EDF7}
+.dark .eyebrow{color:#EBD9A6}
+.dark .big{font-family:var(--display);font-size:clamp(32px,5vw,50px);line-height:1.1;color:var(--white);font-weight:600;margin-bottom:28px}
+.dark ul{list-style:none;padding:0;margin:0;display:grid;gap:10px}
+.dark li{padding-left:28px;position:relative}
+.dark li:before{content:"";position:absolute;left:0;top:.72em;width:14px;height:1.5px;background:var(--gold)}
+
+/* автор */
+.author .portrait{aspect-ratio:4/5}
+.stats{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px;margin:22px 0}
+.stat{background:var(--soft);border-radius:18px;padding:16px 12px;text-align:center}
+.stat b{display:block;font-family:var(--display);font-size:clamp(28px,4vw,36px);color:var(--ink);line-height:1;font-weight:600}
+.stat span{font-size:13.5px;color:var(--dim);line-height:1.3;display:block;margin-top:6px}
+
+/* отзывы */
+.slider{position:relative}
+.reviews{display:flex;align-items:flex-start;gap:14px;overflow-x:auto;scroll-snap-type:x mandatory;scroll-behavior:smooth;padding:4px 2px 8px;scrollbar-width:none;-webkit-overflow-scrolling:touch;overflow-y:hidden;transition:height .3s}
+.reviews::-webkit-scrollbar{display:none}
+.reviews figure{flex:0 0 86%;scroll-snap-align:start;margin:0;border-radius:16px;overflow:hidden;box-shadow:0 10px 30px -18px rgba(20,32,43,.45)}
+.reviews figure img{width:100%;height:auto;max-height:400px;object-fit:cover;object-position:top;cursor:zoom-in}
+.nav{display:flex;align-items:center;justify-content:space-between;gap:16px;margin-top:16px}
+.dots{display:flex;gap:8px;flex-wrap:wrap}
+.dots button{width:9px;height:9px;border-radius:50%;border:0;padding:0;background:var(--line);cursor:pointer}
+.dots button.on{background:var(--blue)}
+.arrows{display:flex;gap:10px}
+.arrows button{width:46px;height:46px;border-radius:50%;border:1.5px solid var(--blue);background:var(--white);color:var(--blue-dark);font-size:20px;cursor:pointer;line-height:1}
+.arrows button:disabled{opacity:.35;cursor:default}
+.zoom{position:fixed;inset:0;z-index:50;background:rgba(10,18,26,.88);display:none;align-items:center;justify-content:center;padding:20px;cursor:zoom-out}
+.zoom.on{display:flex}
+.zoom img{max-height:92vh;max-width:min(92vw,720px);border-radius:14px}
+.btn.ghost{background:var(--white);color:var(--blue-dark);border:1.5px solid var(--blue)}
+.btn.ghost:hover{background:var(--soft2)}
+.ask{display:block;width:100%;margin-top:10px}
+#otzyvy[hidden]{display:none}
+
+/* бонусы */
+.files{display:grid;gap:12px}
+.file{display:flex;gap:16px;align-items:flex-start;background:var(--white);border:1px solid var(--line);border-radius:18px;padding:18px 20px}
+.file .ic{flex:none;width:42px;height:42px;border-radius:12px;background:var(--soft2);display:flex;align-items:center;justify-content:center;color:var(--blue-dark);font-family:var(--display);font-size:22px;font-weight:600}
+.file b{color:var(--ink);display:block;margin-bottom:2px}
+.file p{margin:0;font-size:15.5px}
+
+/* цена */
+.plan{max-width:560px;margin:0 auto;border:2px solid var(--gold);border-radius:28px;padding:34px 28px;background:var(--white);box-shadow:0 30px 60px -36px rgba(44,86,128,.45)}
+.plan .name{font-family:var(--display);font-size:30px;color:var(--ink);font-weight:600}
+.price{font-family:var(--display);font-size:64px;line-height:1;color:var(--ink);font-weight:600;margin:10px 0 4px}
+.price small{font-size:26px;color:var(--dim);font-weight:500}
+.plan ul{list-style:none;padding:0;margin:22px 0 26px;display:grid;gap:10px;font-size:16.5px}
+.plan li{padding-left:30px;position:relative}
+.plan li:before{content:"";position:absolute;left:2px;top:.5em;width:14px;height:8px;border-left:2px solid var(--blue);border-bottom:2px solid var(--blue);transform:rotate(-45deg)}
+.plan .btn{display:block;width:100%}
+.agree{font-size:13.5px;color:var(--dim);margin-top:14px;line-height:1.45}
+.credit{max-width:560px;margin:22px auto 0;text-align:center;font-size:16px}
+
+/* вопросы */
+.faq details .in{padding-left:0}
+
+/* финал */
+.final{background:linear-gradient(180deg,var(--white) 0%,var(--soft) 100%);text-align:center}
+.final h2{max-width:820px;margin-left:auto;margin-right:auto}
+
+footer{background:var(--soft2);padding:40px 0 120px;font-size:14px;color:var(--dim)}
+footer p{margin-bottom:10px}
+footer .links{display:flex;flex-wrap:wrap;gap:6px 18px}
+
+/* нижняя плашка */
+.sticky{position:fixed;left:0;right:0;bottom:0;z-index:10;background:rgba(255,255,255,.96);backdrop-filter:blur(8px);border-top:1px solid var(--line);padding:10px 16px calc(10px + env(safe-area-inset-bottom,0px));transform:translateY(110%);transition:transform .3s}
+.sticky.on{transform:none}
+.sticky .row{max-width:var(--wrap);margin:0 auto;display:flex;gap:14px;align-items:center;justify-content:space-between}
+.sticky .sum{font-size:14px;line-height:1.25;color:var(--dim)}
+.sticky .sum b{display:block;color:var(--ink);font-size:16.5px}
+.sticky .btn{padding:13px 24px;font-size:16px;white-space:nowrap}
+
+@media (min-width:760px){
+  .cards.three{grid-template-columns:repeat(3,minmax(0,1fr))}
+  .two{grid-template-columns:1fr 1fr;gap:48px}
+  .files{grid-template-columns:1fr 1fr}
+  .reviews figure{flex-basis:calc(50% - 7px)}
+}
+@media (min-width:960px){
+  .hero{padding-top:120px}
+  .hero .grid{grid-template-columns:1.15fr .85fr;gap:64px}
+  .author .two{grid-template-columns:.8fr 1.2fr}
+  .reviews figure{flex-basis:calc(33.333% - 10px)}
+  .sticky .row{justify-content:flex-end}
+}
+@media (prefers-reduced-motion:reduce){html{scroll-behavior:auto}*{transition:none!important}}
+</style>
+</head>
+<body>
+
+<header class="top"><div class="wrap"><a href="#">AstroEika</a><span>мини-курс</span></div></header>
+
+<main>
+
+<section class="hero">
+  <div class="wrap grid">
+    <div class="text">
+      <div class="eyebrow">Мини-курс «Мой период: почему сейчас так»</div>
+      <h1>Сколько еще будет так тяжело, <i>можно посчитать по дате рождения</i></h1>
+      <p class="lead">Вы не стали хуже и ничего не испортили. У вас идет период, и у него есть год начала и год окончания. За семь коротких уроков вы узнаете свои даты и поймете, что делать уже сейчас, а что спокойно отложить.</p>
+      <div class="facts">
+        <span class="chip">7 уроков по 10 минут</span>
+        <span class="chip">нужны только дата и место рождения</span>
+        <span class="chip">доступ сразу</span>
+      </div>
+      <div>
+        <a class="btn" href="#cena">Узнать свой период</a>
+        <div class="under">5 900 ₽ · все уроки открываются сразу после оплаты</div>
+      </div>
+    </div>
+    <figure class="portrait" style="margin:0">
+      <img src="img/katya/image.jpg" alt="Екатерина Холкина" onerror="this.remove()">
+      <div class="ph" aria-hidden="true"><svg viewBox="0 0 100 100"><circle cx="50" cy="50" r="46" fill="none" stroke="#fff" stroke-width="1.2"/><path d="M62 18a32 32 0 1 0 0 64a25 25 0 1 1 0-64z" fill="#fff" opacity=".85"/></svg></div>
+      <figcaption><b>Екатерина Холкина</b>астропсихолог, автор курса</figcaption>
+    </figure>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Узнаете себя?</div>
+    <h2>Вы держитесь, <i>а легче не становится</i></h2>
+    <div class="cards three">
+      <div class="card"><div class="pain">«Раньше я справлялась»</div><p>Два года назад вы тянули то же самое: работу, дом, детей, маму. А сейчас к вечеру нет сил даже поговорить с мужем, и вы решили, что дело в вас.</p></div>
+      <div class="card"><div class="pain">«Наверное, это возраст»</div><p>Так говорят все вокруг, и вы почти поверили. Только возраст прибавляется ровно, по году, а вас накрывает волнами.</p></div>
+      <div class="card"><div class="pain">«Опять то же самое»</div><p>Тот же сценарий на работе или в отношениях, и уже не в первый раз. Подругам вы об этом не рассказываете, неловко.</p></div>
+      <div class="card"><div class="pain">«Еще немного потерплю»</div><p>Вы ждете, когда отпустит. Хуже всего, что непонятно, сколько ждать: месяц или пять лет.</p></div>
+      <div class="card"><div class="pain">«Скажите мне, как правильно»</div><p>Уходить или оставаться, увольняться или держаться. Решать страшно, потому что потом можно сильно пожалеть.</p></div>
+      <div class="card"><div class="pain">«Бросить все и уехать»</div><p>Вам около сорока, и вчера все было нормально. А сегодня своя жизнь кажется чужой, и хочется начать с нуля.</p></div>
+    </div>
+    <p class="quote">Вы не сломались. Просто никто не сказал вам, что у этого состояния есть срок.</p>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="wrap narrow">
+    <div class="eyebrow">Что на самом деле происходит</div>
+    <h2>Характер за два года не меняется, <i>а фон меняется</i></h2>
+    <p class="lead">Есть планеты, которые идут медленно и стоят на одном месте годами. Пока такая планета проходит по важной точке вашей карты, держится и состояние: тяжесть, усталость, желание поменять все разом. Потом она уходит дальше, и фон меняется.</p>
+    <p>Эти годы считаются заранее, по дате рождения. Поэтому на вопрос «сколько еще» есть точный ответ, просто его обычно никто не дает.</p>
+    <p>Знать срок не значит сидеть и ждать. В одни периоды надо действовать, и ожидание только затягивает. В другие лучше не принимать необратимых решений до определенного месяца. На курсе вы узнаете, какой период сейчас у вас.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap narrow">
+    <div class="eyebrow">Почему раньше не помогало</div>
+    <h2>Гороскопы были <i>не про вас</i></h2>
+    <p class="lead">Вы читали «Овнам в марте тяжело». Вы Овен, а март прошел спокойно. Или наоборот, про ваш знак писали хорошее, а вам было плохо. Понятно, почему вы перестали верить.</p>
+    <p>Гороскоп пишут сразу на всех, кто родился за целый месяц, это тридцать разных людей. И почти никто не смотрит на знак напротив вашего, хотя он задевает вас не меньше.</p>
+    <p>На курсе вы один раз вписываете свою дату рождения и дальше смотрите только на свои цифры. Если вы уже платили астрологам и было мимо, здесь вы все проверите сами.</p>
+  </div>
+</section>
+
+<section class="soft">
+  <div class="wrap">
+    <div class="eyebrow">Что вы получите</div>
+    <h2>Через семь уроков <i>вы будете знать</i></h2>
+    <ul class="gains">
+      <li>Какой период у вас идет сейчас и откуда он взялся.</li>
+      <li>До какого месяца и года он продлится.</li>
+      <li>Почему одно и то же повторялось в вашей жизни и когда может повториться снова.</li>
+      <li>Какие решения можно принимать уже сейчас, а какие лучше отложить и до какого числа.</li>
+      <li>Что восстанавливает именно вас, когда тяжело: тишина, подруги или порядок на кухне.</li>
+    </ul>
+    <p class="quote" style="margin:8px 0 36px">И вы перестанете винить себя за то, что вам тяжело.</p>
+    <div class="two">
+      <div class="cards">
+        <div class="result">
+          <div class="when">После первого урока</div>
+          <h3>Таблица с вашими годами</h3>
+          <p>Вы вписываете дату рождения, и она сама показывает, какие трудные периоды у вас уже были, какой идет сейчас и какие впереди.</p>
+        </div>
+        <div class="result">
+          <div class="when">После последнего урока</div>
+          <h3>Одна страница про вас</h3>
+          <p>Какой у меня сейчас период, когда он закончится, что мне делать уже сейчас, а что лучше отложить и до какого числа.</p>
+        </div>
+      </div>
+      <div class="mock" aria-label="Пример таблицы с годами">
+        <div class="head"><span>Мои даты · пример</span><span>возраст 0–60</span></div>
+        <div class="row"><b>Сатурн</b><div class="bar-line"><span style="left:11%;width:4%"></span><span style="left:23%;width:4%"></span><span style="left:35%;width:4%"></span><span style="left:48%;width:4%"></span><span class="now" style="left:60%;width:4%"></span><span style="left:73%;width:4%"></span></div></div>
+        <div class="row"><b>Юпитер</b><div class="bar-line"><span style="left:9%;width:3%"></span><span style="left:29%;width:3%"></span><span style="left:49%;width:3%"></span><span class="now" style="left:69%;width:3%"></span><span style="left:89%;width:3%"></span></div></div>
+        <div class="row"><b>Узлы</b><div class="bar-line"><span style="left:15%;width:3%"></span><span style="left:30%;width:3%"></span><span style="left:46%;width:3%"></span><span class="now" style="left:61%;width:3%"></span><span style="left:76%;width:3%"></span></div></div>
+        <div class="row"><b>Уран</b><div class="bar-line"><span style="left:34%;width:3%"></span><span class="now" style="left:66%;width:5%"></span></div></div>
+        <div class="foot"><span><i class="dot" style="background:var(--sky)"></i>ваши периоды</span><span><i class="dot" style="background:var(--gold)"></i>то, что идет сейчас</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="programma">
+  <div class="wrap narrow">
+    <div class="eyebrow">Программа</div>
+    <h2>Семь уроков, <i>около десяти минут каждый</i></h2>
+    <p>Каждый урок добавляет кусочек пазла, и к концу курса из них складывается картина вашей карты. Зубрить ничего не нужно, все считает таблица.</p>
+    <div style="margin-top:24px">
+      <details open><summary><span class="t"><span class="num">1</span>Ваша космограмма и почему гороскопы были не про вас</span><span class="min">14 мин</span></summary><div class="in">Вы строите свою космограмму по инструкции со скриншотами, вписываете дату рождения в таблицу и сразу видите все свои годы. И разбираемся, почему гороскопы вам не подходили.</div></details>
+      <details><summary><span class="t"><span class="num">2</span>Сатурн: что сжимается</span><span class="min">10 мин</span></summary><div class="in">Если кажется, что жизнь сузилась, все стало тяжелее и никто не помогает, скорее всего это Сатурн. Когда он у вас начался, когда закончится и почему его нельзя просто переждать.</div></details>
+      <details><summary><span class="t"><span class="num">3</span>Юпитер: что раздувается</span><span class="min">8 мин</span></summary><div class="in">Год, когда легко взять на себя ремонт, новую работу и собаку разом. Как понять, что вы потянете, а от чего лучше отказаться сейчас.</div></details>
+      <details><summary><span class="t"><span class="num">4</span>Узлы: что разворачивается</span><span class="min">10 мин</span></summary><div class="in">У каждой есть год, после которого все пошло иначе. Вы посчитаете, когда такой год был у вас и когда будет следующий.</div></details>
+      <details><summary><span class="t"><span class="num">5</span>Ваша Луна: новолуние, полнолуние, коридор затмений</span><span class="min">10 мин</span></summary><div class="in">Почему вы так остро на все реагируете или, наоборот, долго не замечаете, что вам плохо. И месяц два раза в год, когда лучше не выяснять отношения и не подписывать важных документов.</div></details>
+      <details><summary><span class="t"><span class="num">6</span>Уран: период, в который решения отменяют</span><span class="min">9 мин</span></summary><div class="in">Тот самый кризис сорока лет, когда хочется все разрушить. Идет ли он у вас, до какого года и почему важные решения в это время лучше отложить.</div></details>
+      <details><summary><span class="t"><span class="num">7</span>Ваша страница: что делаю, что откладываю</span><span class="min">8 мин</span></summary><div class="in">Собираем все на одну страницу: что делаю сейчас, что откладываю и до какого числа. И простой способ не принимать решений, о которых потом жалеешь.</div></details>
+      <details class="bonus"><summary><span class="t"><span class="num">+</span>Бонусный урок: ваши ретроградные планеты</span><span class="min">7 мин</span></summary><div class="in">Что на самом деле происходит в ретроградный Меркурий, и почему ретроградная планета в вашей карте ничего не ломает.</div></details>
+    </div>
+    <p style="margin-top:22px">На весь курс уходит меньше двух часов. Все уроки открываются сразу, проходите в своем темпе, удобно по уроку в день.</p>
+  </div>
+</section>
+
+<section class="dark">
+  <div class="wrap narrow">
+    <div class="eyebrow">Правило курса</div>
+    <p class="big">Карта не говорит, что вам делать. Она говорит, стоит ли делать это сейчас.</p>
+    <p>Чего здесь не будет:</p>
+    <ul>
+      <li>Предсказаний, что с вами случится.</li>
+      <li>Советов, разводиться вам или нет.</li>
+      <li>Обещаний, что после курса все наладится.</li>
+      <li>Гороскопов «для всех Скорпионов».</li>
+    </ul>
+  </div>
+</section>
+
+<section class="author">
+  <div class="wrap narrow">
+    <div>
+      <div class="eyebrow">Кто ведет</div>
+      <h2>Екатерина Холкина, <i>астропсихолог</i></h2>
+      <p class="lead">«Когда я сама начинала, я ходила к астрологам, нумерологам, хиромантам, и все, что мне говорили, было мимо. Потом, уже на учебе, выяснилось, что время на моей бирке из роддома неточное. Мне разбирали чужую карту».</p>
+      <p>Поэтому на курсе мы опираемся только на то, что известно точно: дату и место рождения. Время рождения не нужно, а все расчеты вы сверяете со своей жизнью сами, по своей таблице.</p>
+      <!-- STATS: блок с тремя цифрами появится, когда Катя их пришлет
+      <div class="stats">
+        <div class="stat"><b>00</b><span>лет практики</span></div>
+        <div class="stat"><b>000</b><span>разборов</span></div>
+        <div class="stat"><b>000</b><span>учениц</span></div>
+      </div>
+      -->
+    </div>
+  </div>
+</section>
+
+<section class="soft" id="otzyvy" hidden>
+  <div class="wrap">
+    <div class="eyebrow">Отзывы</div>
+    <h2>Что пишут <i>Кате</i></h2>
+    <p style="margin-bottom:28px">Ученицы интенсива, подписчицы канала и те, кому Катя смотрела карту.</p>
+    <div class="slider">
+      <div class="reviews" id="reviews" tabindex="0" aria-label="Отзывы, листайте вбок"></div>
+      <div class="nav"><div class="dots" id="dots"></div><div class="arrows"><button type="button" id="prev" aria-label="Назад">&#8592;</button><button type="button" id="next" aria-label="Вперед">&#8594;</button></div></div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="wrap">
+    <div class="eyebrow">Остается с вами навсегда</div>
+    <h2>Кроме уроков</h2>
+    <div class="files" style="margin-top:24px">
+      <div class="file"><div class="ic">1</div><div><b>Таблица с вашими годами</b><p>Считает сама, нужна только дата рождения.</p></div></div>
+      <div class="file"><div class="ic">2</div><div><b>Инструкция со скриншотами</b><p>Как за пять минут построить свою космограмму, даже если время рождения неизвестно.</p></div></div>
+      <div class="file"><div class="ic">3</div><div><b>Гайд «Семь планет»</b><p>Простые шаги на неделю, если нет сил, ничего не радует или не получается сказать «нет».</p></div></div>
+      <div class="file"><div class="ic">4</div><div><b>Шаблон вашей страницы</b><p>Один лист: какой у меня период, что делаю, что откладываю и до какого числа.</p></div></div>
+      <div class="file"><div class="ic">5</div><div><b>Словарь</b><p>Все непонятные слова простым языком.</p></div></div>
+      <div class="file"><div class="ic">+6</div><div><b>Еще шесть коротких справочников</b><p>На случай, если захочется разобраться глубже.</p></div></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft" id="cena">
+  <div class="wrap">
+    <div style="text-align:center">
+      <div class="eyebrow">Стоимость</div>
+      <h2>Все, что входит в курс</h2>
+    </div>
+    <div class="plan">
+      <div class="name">Мой период</div>
+      <div class="price">5 900 <small>₽</small></div>
+      <ul>
+        <li>7 уроков и бонусный урок</li>
+        <li>Таблица с вашими годами и все справочники</li>
+        <li>Общий чат курса</li>
+        <li>Эфир раз в месяц, 60 минут, с записью</li>
+        <li>Дневник на неделю для самостоятельной практики</li>
+        <li>Доступ к урокам 3 месяца</li>
+      </ul>
+      <a class="btn pay" href="#" target="_blank" rel="noopener">Оплатить 5 900 ₽</a>
+      <a class="btn ghost ask" href="https://t.me/astroassistent_AstroEika" target="_blank" rel="noopener">Задать вопрос</a>
+      <p class="agree">Нажимая кнопку, вы принимаете <a href="https://disk.yandex.ru/i/HclIiLHAt7xufg" target="_blank" rel="noopener">оферту</a> и даете <a href="https://disk.yandex.ru/i/mmdBpYPKfFZfNg" target="_blank" rel="noopener">согласие на обработку персональных данных</a>.</p>
+    </div>
+    <p class="credit">Если после курса захочется глубже, его стоимость полностью засчитывается в интенсив «Астрология жизни» в течение 30 дней после оплаты.</p>
+  </div>
+</section>
+
+<section>
+  <div class="wrap narrow">
+    <div class="eyebrow">Честно</div>
+    <h2>Кому курс не подойдет</h2>
+    <div class="cards">
+      <div class="card"><p>Если вам нужен личный разбор вашей ситуации. Здесь вы разбираетесь сами, с опорой на уроки и таблицу.</p></div>
+      <div class="card"><p>Если вы ждете, что вам скажут, как поступить. Решать будете вы, а курс покажет, когда для этого подходящее время.</p></div>
+      <div class="card"><p>Если вы месяцами не можете встать по утрам и ничего не радует. Тогда сначала к врачу, курс подождет.</p></div>
+    </div>
+  </div>
+</section>
+
+<section class="soft faq">
+  <div class="wrap narrow">
+    <div class="eyebrow">Вопросы</div>
+    <h2>Спрашивают чаще всего</h2>
+    <div style="margin-top:24px">
+      <details><summary>Я не знаю время рождения. Подойдет?</summary><div class="in">Да. Для курса нужны только дата и место рождения.</div></details>
+      <details><summary>Может, это просто возраст и пройдет само?</summary><div class="in">Может, и пройдет. Только вы не знаете когда, а на курсе узнаете. Возраст прибавляется каждый год одинаково, а тяжелые периоды приходят и уходят, и у каждого есть свои годы.</div></details>
+      <details><summary>Я уже платила астрологам, и было мимо</summary><div class="in">У Кати было так же: ей разбирали карту по неточному времени. Здесь ничего не нужно принимать на веру. Вы вписываете свою дату и сами сверяете годы из таблицы со своей жизнью.</div></details>
+      <details><summary>Я совсем ничего не понимаю в астрологии</summary><div class="in">И не надо. Все считает таблица, а Катя объясняет простыми словами, на примерах из жизни.</div></details>
+      <details><summary>Когда начало?</summary><div class="in">Сразу после оплаты. Все уроки и файлы открываются в тот же момент.</div></details>
+      <details><summary>Сколько времени это займет?</summary><div class="in">Меньше двух часов на весь курс. Удобно по уроку в день, но темп вы выбираете сами.</div></details>
+      <details><summary>Я буду одна с записями?</summary><div class="in">Нет. Есть общий чат курса, там и новенькие, и те, кто уже прошел. Вопросы из чата Катя собирает и отвечает на них в видео и на эфире раз в месяц.</div></details>
+      <details><summary>Вы скажете, разводиться мне или нет?</summary><div class="in">Нет, и никто не должен. Но вы увидите, в каком вы периоде, сколько он длится и к какой дате стоит вернуться к вопросу на трезвую голову.</div></details>
+      <details><summary>Чем это отличается от интенсива?</summary><div class="in">Здесь вы разбираетесь с тем, что происходит у вас сейчас. На интенсиве учитесь читать карту целиком, свою и близких.</div></details>
+      </div>
+  </div>
+</section>
+
+<section class="final">
+  <div class="wrap">
+    <h2>Период идет, знаете вы о нем или нет. <i>Только с датой окончания жить спокойнее</i></h2>
+    <p class="lead" style="margin:0 auto 26px;max-width:560px">Семь уроков, меньше двух часов на все. Уроки и файлы открываются сразу после оплаты.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;justify-content:center"><a class="btn pay" href="#" target="_blank" rel="noopener">Оплатить 5 900 ₽</a><a class="btn ghost" href="https://t.me/astroassistent_AstroEika" target="_blank" rel="noopener">Задать вопрос</a></div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p class="links">
+      <a href="https://disk.yandex.ru/i/HclIiLHAt7xufg" target="_blank" rel="noopener">Оферта</a>
+      <a href="https://disk.yandex.ru/i/fvcxGeBBqhvf7g" target="_blank" rel="noopener">Политика обработки персональных данных</a>
+      <a href="https://disk.yandex.ru/i/mmdBpYPKfFZfNg" target="_blank" rel="noopener">Согласие на обработку данных</a>
+      <a href="https://disk.yandex.ru/i/HESMpRsZ-lHhOw" target="_blank" rel="noopener">Согласие на рекламную рассылку</a>
+    </p>
+    <p>ИП Холкина · ИНН 272326703605 · ОГРНИП 322272400004459<br>Поддержка в Telegram: <a href="https://t.me/astroassistent_AstroEika" target="_blank" rel="noopener">@astroassistent_AstroEika</a></p>
+    <p>AstroEika. Курс не заменяет помощь врача или психотерапевта.</p>
+  </div>
+</footer>
+<div class="zoom" id="zoom" role="dialog" aria-label="Отзыв крупно"><img alt=""></div>
+
+<div class="sticky" id="sticky">
+  <div class="row">
+    <div class="sum"><b>Мой период</b>5 900 ₽, доступ сразу</div>
+    <a class="btn" href="#cena">Узнать свой период</a>
+  </div>
+</div>
+
+<script>
+/* ===== НАСТРОЙКИ: меняются только здесь ===== */
+var PAY_URL = "#";            // ссылка на оплату
+var REVIEWS = [               // скрины отзывов из папки img
+  "r1/image.png","r2/image.png","r3/image.png","r4/image.png","r5/image.png","r6/image.jpg","r7/image.png","r8/image.jpg"
+];
+/* ============================================ */
+(function(){
+  document.querySelectorAll('a.pay').forEach(function(a){
+    if(PAY_URL && PAY_URL !== "#"){ a.href = PAY_URL; }
+    else { a.href = "#cena"; a.removeAttribute('target'); }
+  });
+  if(REVIEWS.length){
+    var box=document.getElementById('reviews'), dots=document.getElementById('dots');
+    var zoom=document.getElementById('zoom'), zimg=zoom.querySelector('img');
+    REVIEWS.forEach(function(src,i){
+      var f=document.createElement('figure');
+      var im=document.createElement('img');
+      im.src='img/'+src; im.alt='Отзыв '+(i+1); im.loading='lazy';
+      im.addEventListener('click',function(){zimg.src=im.src;zoom.classList.add('on');});
+      f.appendChild(im); box.appendChild(f);
+      var d=document.createElement('button'); d.type='button'; d.setAttribute('aria-label','Отзыв '+(i+1));
+      d.addEventListener('click',function(){box.scrollTo({left:f.offsetLeft-box.offsetLeft,behavior:'smooth'});});
+      dots.appendChild(d);
+    });
+    zoom.addEventListener('click',function(){zoom.classList.remove('on');});
+    document.addEventListener('keydown',function(e){if(e.key==='Escape')zoom.classList.remove('on');});
+    var figs=box.children, prev=document.getElementById('prev'), next=document.getElementById('next');
+    function step(){return figs[0].getBoundingClientRect().width+14;}
+    prev.addEventListener('click',function(){box.scrollBy({left:-step(),behavior:'smooth'});});
+    next.addEventListener('click',function(){box.scrollBy({left:step(),behavior:'smooth'});});
+    function upd(){
+      var i=Math.round(box.scrollLeft/step());
+      Array.prototype.forEach.call(dots.children,function(d,k){d.classList.toggle('on',k===i);});
+      prev.disabled=box.scrollLeft<4;
+      next.disabled=box.scrollLeft+box.clientWidth>=box.scrollWidth-4;
+      var br=box.getBoundingClientRect(), h=0;
+      Array.prototype.forEach.call(figs,function(f){var r=f.getBoundingClientRect();if(r.right>br.left+20&&r.left<br.right-20)h=Math.max(h,f.offsetHeight);});
+      if(h)box.style.height=(h+14)+'px';
+    }
+    Array.prototype.forEach.call(box.querySelectorAll('img'),function(im){im.addEventListener('load',upd);});
+    box.addEventListener('scroll',upd,{passive:true}); window.addEventListener('resize',upd); upd();
+    document.getElementById('otzyvy').hidden=false; upd();
+  }
+  var s=document.getElementById('sticky'), price=document.getElementById('cena');
+  function chk(){
+    var y=window.scrollY, r=price.getBoundingClientRect();
+    var inPrice=r.top<window.innerHeight && r.bottom>0;
+    s.classList.toggle('on', y>window.innerHeight*0.8 && !inPrice);
+  }
+  window.addEventListener('scroll',chk,{passive:true}); chk();
+})();
+</script>
+</body>
+</html>
